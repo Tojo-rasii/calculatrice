@@ -1,0 +1,142 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    padding: 1.5em;
+    background: url('../image/bg1.jpg') no-repeat;
+    background-size: 120%;
+}
+main{
+    max-width: 50%;
+    background: rgb(254, 254, 254);
+}
+main section{
+    display: flex;
+    flex-direction: column;
+}
+main section article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+main section article span{
+    background: rgb(239, 239, 239);
+    cursor: pointer;
+    padding-bottom: 0.5em;
+    width: 15em;
+    height: 2.3em;
+    padding: 5px;
+    outline: 1px solid rgb(219, 219, 219);
+    padding-top: 0.3em;
+}
+main section article span:hover{
+    background: rgb(227, 227, 227);
+}
+
+.bg-white{
+    background: white;
+}
+.bg-white:hover{
+    background: rgb(242, 242, 242);
+}
+
+.text-blue{
+    color: rgb(0, 83, 200);
+}
+.text-silver{
+    color: rgb(134, 134, 134);
+}
+.text-orange{
+    color: rgb(255, 123, 0);
+}
+.b-top{
+   border-top: none;
+   background: rgb(0, 83, 200);
+   color: white;
+   padding-top: 1.3em;
+   padding-bottom: 3.3em;
+   margin-top: -2.3em;
+}
+.b-top:hover{
+    background:  rgb(0, 66, 159);
+}
+.b-bottom{
+    color: white;
+    border-bottom: none;
+    background: transparent;
+ }
+
+ .result{
+    width: 50%;
+    height: 3.5em;
+    outline: 1px solid rgb(219, 219, 219);
+    border: none;
+    font-size: 0.9em;
+    text-align: right;
+    padding-right: 0.5em;
+ }
+
+ .result:focus{
+    border: none;
+    outline: 1px solid rgb(219, 219, 219);
+ }
+ .desc-calculate{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    font-size: 0.8em;
+ }
+ .head{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background: #fff;
+    width: 70%;
+    padding: 0.7em;
+    box-shadow: 0 0 1.5px 0.2px rgb(173, 173, 173);
+    border-radius: 0.5em;
+ }
+ .head span p:nth-child(1){
+    font-size: 0.9em;
+ }
+ .head span p:nth-child(2){
+    color: yellow;
+ }
+.head-desc{
+    background: #fff;
+    width: 80%;
+    padding: 0.7em;
+    box-shadow: 0 0 1.5px 0.2px rgb(173, 173, 173);
+    border-radius: 0.5em;
+    padding-bottom: 1.5em;
+}
+.head-desc p:nth-child(2){
+    margin-top: 0.5em;
+    font-size: 0.7em;
+}
+
+ .desc-calculate section article{
+    margin-top: 0.7em;
+ }
+ .desc-calculate section article  picture img{
+    width: 3em;
+    height: auto;
+    object-fit: cover;
+ }
+ .desc-calculate section article span svg{
+    outline: 1px solid rgb(182, 182, 182);
+    padding: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    background: #fff;
+ }
+ .result{
+    cursor: default;
+ }
