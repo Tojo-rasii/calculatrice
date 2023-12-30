@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // Select the input field for the result
     var resultInput = document.querySelector('.result');
 
-
     // Select all calculator buttons
     var buttons = document.querySelectorAll('section article span');
 
